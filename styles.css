@@ -29,10 +29,12 @@ button {
     background-color: #8B48BF;
     color: white;
     cursor: pointer;
+    transition: all 0.3s;
 }
 
 button:hover {
     background-color: rgba(139, 72, 191, 0.7);
+    scale: 1.1;
 }
 
 header {
@@ -73,6 +75,7 @@ nav ul li a:hover {
 #heroImage {
     width: 37.5vw;
     max-width: 540px;
+    animation: slideLeft 2s;
 }
 
 #heroContent {
@@ -83,6 +86,11 @@ nav ul li a:hover {
 h1 {
     font-size: 50px;
     color: #232C50;
+    animation: slideRight 1.5s;
+}
+
+#heroContent p {
+    animation: slideRight 1.5s;
 }
 
 #section1, #section4 {
@@ -297,6 +305,28 @@ footer p {
 .buttonShadow{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.25);
     margin: 4px 0;
+}
+
+/* ANIMACION */
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-500px);
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
+@keyframes slideLeft {
+    0%{
+        transform: translateX(500px);
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
 
 /* MEDIA QUERY FOR BIGGER TABLETS */
