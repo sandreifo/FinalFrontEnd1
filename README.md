@@ -1,1 +1,3 @@
-Debido a problemas con mis horarios y tiempo disponible, tuve que hacer el ejercicio de manera individual. Agradezco mucho por la informacion provista en el curso y quedo atento a cualquier comentario.
+See live site here:
+
+https://sandreifo.github.io/FinalFrontEnd1/
